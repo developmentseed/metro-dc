@@ -1,0 +1,140 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+body {
+  margin-top: 80px;
+  background: #000;
+  color: #666;
+}
+
+section {
+	padding: 0rem 7rem;
+}
+
+ul {
+	margin-left: 0px;
+	font-size: 15px;
+	font-family:InputMonoCondensed-Bold;
+}
+
+li {
+	display: block;
+	height:75px;
+	font-size: 11px;
+}
+
+.train {
+ width: 30px;
+ height: 10px;
+ background: #ccc;
+ text-indent: -9999px;
+}
+.inbound-train {
+  margin-left: 50px;
+}
+
+.red-train1 {
+height:10px;
+width:60px;
+background-color:#FF0C03;
+position:absolute;
+}
+
+.red-train2 {
+height:10px;
+width:60px;
+background-color:#FF0C03;
+position:absolute;
+}
+
+.yellow-train1 {
+height:10px;
+width:60px;
+background-color:#FFFF00;
+position:absolute;
+}
+
+.yellow-train2 {
+height:10px;
+width:60px;
+background-color:#FFFF00;
+position:absolute;
+}
+ 
+.green-train1 {
+height:10px;
+width: 50%;
+background-color:#7CF205;
+position:absolute;
+}
+
+.green-train2 {
+height:10px;
+width: 50%;
+background-color:#7CF205;
+position:absolute;
+} 
+ 
+.orange-train1 {
+height:10px;
+width:60px;
+background-color:#FE6A01;
+position:absolute;
+}
+
+.orange-train2 {
+height:10px;
+width:60px;
+background-color:#FE6A01;
+position:absolute;
+} 
+
+@font-face {
+    font-family: InputMonoCondensed-Bold;
+    src: url(fonts/InputMonoCondensed-Bold.ttf);
+    font-weight:bold;
+}
