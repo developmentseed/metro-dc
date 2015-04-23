@@ -52,7 +52,7 @@ body {
 }
 
 section {
-	padding: 0rem 7rem;
+	padding: 0rem 12rem;
 }
 
 ul {
@@ -64,74 +64,41 @@ ul {
 li {
 	display: block;
 	height:75px;
-	font-size: 11px;
+	font-size: 12px;
 }
 
 .train {
  width: 30px;
  height: 10px;
  background: #ccc;
- text-indent: -9999px;
+ text-indent: -9999px; 
 }
+
 .inbound-train {
   margin-left: 50px;
 }
 
-.red-train1 {
-height:10px;
-width:60px;
-background-color:#FF0C03;
-position:absolute;
+.yellow-line-margin {
+margin-top:75px;
 }
 
-.red-train2 {
-height:10px;
-width:60px;
-background-color:#FF0C03;
-position:absolute;
+.green-line-margin {
+margin-top:75px;
 }
 
-.yellow-train1 {
-height:10px;
-width:60px;
-background-color:#FFFF00;
-position:absolute;
+.orange-line-margin {
+margin-top:225px;
 }
 
-.yellow-train2 {
-height:10px;
-width:60px;
-background-color:#FFFF00;
-position:absolute;
-}
- 
-.green-train1 {
-height:10px;
-width: 50%;
-background-color:#7CF205;
-position:absolute;
+.silver-line-margin {
+margin-top:225px;
 }
 
-.green-train2 {
-height:10px;
-width: 50%;
-background-color:#7CF205;
-position:absolute;
-} 
- 
-.orange-train1 {
-height:10px;
-width:60px;
-background-color:#FE6A01;
-position:absolute;
+.blue-line-margin {
+margin-top:225px;
 }
 
-.orange-train2 {
-height:10px;
-width:60px;
-background-color:#FE6A01;
-position:absolute;
-} 
+
 
 @font-face {
     font-family: InputMonoCondensed-Bold;

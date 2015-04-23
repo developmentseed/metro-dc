@@ -28,18 +28,20 @@ $.ajax({
           
           // group data by line
           var trains = _.groupBy(data.Trains, 'Line');
-          var stations = '';
+          var stations = [];
           var boarding = [];
+
           
           // for each line, group data by station
           $.each(trains, function(index, value) {
             //stations = _.groupBy(value, 'LocationName');
             var times = _.groupBy(value, 'Min');
             boarding.push(times);
-            
+            var names = _.groupBy(value, 'LocationName');
+            stations.push(names);
           });
           
-          
+          console.log(stations);
             
   			
           
