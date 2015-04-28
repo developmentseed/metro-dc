@@ -47,8 +47,7 @@ $on-laptop:        800px;
 
 body {
   margin-top: 80px;
-  background: #000;
-  color: #666;
+  background: #fff;
 }
 
 section {
@@ -57,51 +56,55 @@ section {
 
 ul {
 	margin-left: 0px;
-	font-size: 15px;
+	font-size: 14px;
+	color: #666;
 	font-family:InputMonoCondensed-Bold;
+	text-align:center;
+	background-color:#eee;
 }
 
 li {
 	display: block;
-	height:75px;
-	font-size: 12px;
+	height:50px;
 }
 
 .train {
- width: 30px;
+ width: 40%;
  height: 10px;
  background: #ccc;
  text-indent: -9999px; 
 }
 
 .inbound-train {
-  margin-left: 50px;
+  float:right;
 }
 
 .yellow-line-margin {
-margin-top:375px;
+margin-top:250px;
 }
 
 .green-line-margin {
-margin-top:75px;
+margin-top:50px;
 }
 
 .orange-line-margin {
-margin-top:225px;
+margin-top:150px;
 }
 
 .silver-line-margin {
-margin-top:225px;
+margin-top:150px;
 }
 
 .blue-line-margin {
-margin-top:225px;
+margin-top:150px;
 }
-
-
 
 @font-face {
     font-family: InputMonoCondensed-Bold;
     src: url(fonts/InputMonoCondensed-Bold.ttf);
     font-weight:bold;
+}
+
+.connection{
+border: 2px solid #000;
 }
