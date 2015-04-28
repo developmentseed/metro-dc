@@ -54,6 +54,10 @@ section {
 	padding: 0rem 12rem;
 }
 
+.row {
+  position: relative;
+}
+
 ul {
 	margin-left: 0px;
 	font-size: 14px;
@@ -66,6 +70,10 @@ ul {
 li {
 	display: block;
 	height:50px;
+}
+
+.train-line ul {
+  background: #eee url("images/div-col.png") repeat-y center center;
 }
 
 .train {
@@ -104,6 +112,16 @@ margin-top:150px;
 
 .blue-line-margin {
 margin-top:150px;
+}
+
+.transfer {
+  position: absolute;
+  top: 650px;
+  right: 15px;
+  height: 24px;
+  width: 81%;
+  border: 1px solid #555;
+  z-index: 1000;
 }
 
 @font-face {
