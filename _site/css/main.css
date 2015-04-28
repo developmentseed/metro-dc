@@ -468,9 +468,15 @@ li {
   height: 50px; }
 
 .train {
-  width: 40%;
+  width: 35%;
   height: 10px;
   background: #ccc;
+  text-indent: -9999px; }
+
+.red-train {
+  width: 35%;
+  height: 10px;
+  background: #000;
   text-indent: -9999px; }
 
 .inbound-train {
@@ -496,4 +502,4 @@ li {
   src: url(fonts/InputMonoCondensed-Bold.ttf);
   font-weight: bold; }
 .connection {
-  border: 2px solid #000; }
+  border: 2px solid #ccc; }

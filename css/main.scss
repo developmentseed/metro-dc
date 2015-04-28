@@ -69,9 +69,16 @@ li {
 }
 
 .train {
- width: 40%;
+ width: 35%;
  height: 10px;
  background: #ccc;
+ text-indent: -9999px; 
+}
+
+.red-train {
+ width: 35%;
+ height: 10px;
+ background: #000;
  text-indent: -9999px; 
 }
 
@@ -106,5 +113,5 @@ margin-top:150px;
 }
 
 .connection{
-border: 2px solid #000;
+border: 2px solid #ccc;
 }
