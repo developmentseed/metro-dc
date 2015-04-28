@@ -485,19 +485,21 @@ li {
   z-index: 1; }
 
 .train {
-  width: 35%;
+  width: 30%;
   height: 10px;
   background: #ccc;
-  text-indent: -9999px; }
+  text-indent: -9999px;
+  position: absolute;
+  top: 0;
+  left: 10px; }
 
-.red-train {
-  width: 35%;
-  height: 10px;
-  background: #000;
-  text-indent: -9999px; }
+.train-line-red .train {
+  background: #000; }
 
 .inbound-train {
-  float: right; }
+  position: absolute;
+  right: 10px;
+  left: auto; }
 
 .yellow-line-margin {
   margin-top: 250px; }
@@ -516,10 +518,7 @@ li {
 
 .transfer {
   position: absolute;
-  top: 650px;
-  right: 15px;
   height: 24px;
-  width: 81%;
   border: 1px solid #555;
   z-index: 1000; }
 
