@@ -64,16 +64,28 @@ ul {
 	color: #666;
 	font-family:InputMonoCondensed-Bold;
 	text-align:center;
-	background-color:#eee;
+	background: #eee;
 }
 
 li {
 	display: block;
 	height:50px;
+	z-index: 10;
+	position: relative;
 }
 
-.train-line ul {
-  background: #eee url("images/div-col.png") repeat-y center center;
+
+.divider {
+   position: absolute;
+   left: 0;
+   right: 0;
+   margin-right: auto;
+   margin-left: auto;
+   top: 0;
+   height: 100%;
+   width: 30px;
+   background: #fff;
+   z-index: 1;
 }
 
 .train {
