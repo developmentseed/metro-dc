@@ -3,7 +3,7 @@ $(document).ready(function() {
 // run the init function every 'x' seconds
 setInterval(function(){ 
   init();
-}, 3000);
+}, 500);
 
 // loop over all the transfer divs and call the draw function for each one
 $('.transfer').each(function(index, value) {

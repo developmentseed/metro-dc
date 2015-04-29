@@ -450,7 +450,7 @@ pre {
 
 body {
   margin-top: 80px;
-  background: #fff; }
+  background: #1A1A1A; }
 
 section {
   padding: 0rem 12rem; }
@@ -459,16 +459,18 @@ section {
   position: relative; }
 
 ul {
+  padding-top: 40px;
+  padding-bottom: 30px;
   margin-left: 0px;
   font-size: 14px;
-  color: #666;
+  color: #333333;
   font-family: InputMonoCondensed-Bold;
   text-align: center;
-  background: #eee; }
+  background: #000; }
 
 li {
   display: block;
-  height: 50px;
+  height: 35px;
   z-index: 10;
   position: relative; }
 
@@ -480,51 +482,67 @@ li {
   margin-left: auto;
   top: 0;
   height: 100%;
-  width: 30px;
-  background: #fff;
+  width: 25%;
+  background: #1A1A1A;
   z-index: 1; }
 
 .train {
-  width: 30%;
-  height: 10px;
+  width: 35%;
+  height: 12px;
   background: #ccc;
   text-indent: -9999px;
   position: absolute;
-  top: 0;
-  left: 10px; }
+  top: 0.5rem;
+  left: 0px;
+  z-index: -5; }
 
 .train-line-red .train {
-  background: #000; }
+  background: #FF0000; }
+
+.train-line-green .train {
+  background: #8CFF00; }
+
+.train-line-yellow .train {
+  background: #FFF000; }
+
+.train-line-blue .train {
+  background: #1A00FF; }
+
+.train-line-orange .train {
+  background: #FF8000; }
+
+.train-line-silver .train {
+  background: #CACACA3; }
 
 .inbound-train {
   position: absolute;
-  right: 10px;
+  right: 0px;
   left: auto; }
 
 .yellow-line-margin {
-  margin-top: 250px; }
+  margin-top: 175px; }
 
 .green-line-margin {
-  margin-top: 50px; }
+  margin-top: 35px; }
 
 .orange-line-margin {
-  margin-top: 150px; }
+  margin-top: 105px; }
 
 .silver-line-margin {
-  margin-top: 150px; }
+  margin-top: 105px; }
 
 .blue-line-margin {
-  margin-top: 150px; }
+  margin-top: 105px; }
 
 .transfer {
   position: absolute;
   height: 24px;
-  border: 1px solid #555;
-  z-index: 1000; }
+  background-color: #000;
+  z-index: -1000; }
 
 @font-face {
   font-family: InputMonoCondensed-Bold;
   src: url(fonts/InputMonoCondensed-Bold.ttf);
   font-weight: bold; }
 .connection {
-  border: 2px solid #ccc; }
+  border: 0px solid #ccc; }
