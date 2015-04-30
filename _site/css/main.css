@@ -471,6 +471,11 @@ ul {
   text-align: center;
   background: #000; }
 
+.train-line li:hover {
+  color: #ccc;
+  opacity: 0.5;
+  text-decoration: none; }
+
 li {
   display: block;
   height: 35px;
@@ -540,10 +545,10 @@ li {
 
 .transfer {
   position: absolute;
-  height: 18px;
-  background-color: rgba(0, 0, 0, 0.3);
-  z-index: -20;
-  margin-top: 3px; }
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0.25);
+  z-index: 20;
+  margin-top: 2px; }
 
 @font-face {
   font-family: InputMonoCondensed-Bold;
@@ -565,16 +570,6 @@ li {
   font-family: InputSansCompressed-Medium;
   src: url(fonts/InputSansCompressed-Medium.ttf);
   font-weight: medium; }
-.connection-left {
-  background-color: #333; }
-
-.connection-right {
-  position: absolute;
-  height: 24px;
-  background-color: #000;
-  z-index: -20;
-  right: 10px; }
-
 h1 {
   font-size: 115px;
   color: #ccc;
@@ -605,7 +600,8 @@ p {
   font-size: 16px;
   color: #ccc;
   font-weight: 300;
-  line-height: 1.6; }
+  line-height: 1.6;
+  letter-spacing: .05rem; }
 
 .flexbox-container {
   display: flex;
@@ -626,17 +622,52 @@ p {
     display: inline;
     margin-left: 5rem;
     margin-right: 5rem; }
-  .menu a {
-    color: #ccc; }
+
+.menu li a {
+  color: #ccc; }
+
+.menu li a:hover {
+  color: white;
+  text-decoration: none;
+  font-weight: 600; }
 
 .menu-box {
   border-top: 3px solid #ccc;
   border-bottom: 3px solid #ccc;
-  margin: 30px 15px 50px 15px; }
+  margin: 30px 15px 40px 15px; }
 
 .boarding-text {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   text-align: center;
   color: #4D4D4D;
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px; }
+  font-size: 17px;
+  font-weight: 500; }
+
+.counter {
+  color: #4D4D4D;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  border: 3px solid #4D4D4D;
+  padding: 3px 6px; }
+
+.footer-notes {
+  font-size: 15px;
+  color: #4D4D4D;
+  text-align: right;
+  letter-spacing: .05rem; }
+
+.project-name {
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .2rem; }
+
+.footer-divider {
+  margin-top: 80px;
+  border-top: 3px solid #4D4D4D;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 40px; }

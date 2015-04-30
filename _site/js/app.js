@@ -3,7 +3,7 @@ $(document).ready(function() {
 // run the init function every 'x' seconds
 setInterval(function(){ 
   init();
-}, 500);
+}, 5000);
 
 // loop over all the transfer divs and call the draw function for each one
 $('.transfer').each(function(index, value) {
@@ -44,7 +44,8 @@ $.ajax({
           var trains = _.groupBy(data.Trains, 'Line');
           var stations = [];
           var boarding = [];
-
+          var counter = 0;
+          
           
           // for each line, group data by station
           $.each(trains, function(index, value) {
@@ -55,8 +56,12 @@ $.ajax({
             stations.push(names);
           });
           
-          console.log(stations); 
+          
+          
+          //console.log(stations); 
   			
+  			
+  		
           
           // For each line go through and calculate number of trains
  		  // Attach train to their lines and direction
@@ -70,6 +75,8 @@ $.ajax({
                   var lineColor = $(this).parent('ul').attr('data-line');
                   var stationName = $(this).attr('data-official-title');
                   if (stationName === train.LocationName && lineColor === train.Line) {
+                      counter++;
+                       $('.counter').text(counter);
                     if (train.Group === '1') {
                       $(this).append('<div class="train outbound-train">train</div>');
                     } else {
@@ -82,6 +89,8 @@ $.ajax({
           
           
           
+    
+  			
           
          
       }
