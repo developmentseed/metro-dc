@@ -503,7 +503,7 @@ li {
   top: 0.5rem;
   left: 0px;
   z-index: -5;
-  border-radius: 4px 4px 4px 4px; }
+  border-radius: 0px 0px 0px 0px; }
 
 .train-line-red .train {
   background: #FF0000; }
@@ -597,10 +597,11 @@ h3 {
   letter-spacing: .3rem; }
 
 p {
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
-  color: #ccc;
-  font-weight: 300;
-  line-height: 1.6;
+  color: #6E7476;
+  font-weight: 500;
+  line-height: 1.7;
   letter-spacing: .05rem; }
 
 .flexbox-container {
@@ -624,7 +625,8 @@ p {
     margin-right: 5rem; }
 
 .menu li a {
-  color: #ccc; }
+  color: #ccc;
+  text-decoration: none; }
 
 .menu li a:hover {
   color: white;
@@ -634,29 +636,29 @@ p {
 .menu-box {
   border-top: 3px solid #ccc;
   border-bottom: 3px solid #ccc;
-  margin: 30px 15px 40px 15px; }
+  margin: 40px 15px 40px 15px; }
 
 .boarding-text {
   margin-bottom: 40px;
   text-align: center;
-  color: #4D4D4D;
+  color: #6E7476;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 17px;
-  font-weight: 500; }
+  font-weight: 400; }
 
 .counter {
-  color: #4D4D4D;
+  color: #6E7476;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 19px;
   font-weight: 700;
-  border: 3px solid #4D4D4D;
+  border: 3px solid #6E7476;
   padding: 3px 6px; }
 
 .footer-notes {
   font-size: 15px;
-  color: #4D4D4D;
-  text-align: right;
-  letter-spacing: .05rem; }
+  color: #6E7476;
+  letter-spacing: .05rem;
+  display: inline; }
 
 .project-name {
   font-size: 11px;
@@ -666,8 +668,17 @@ p {
 
 .footer-divider {
   margin-top: 80px;
-  border-top: 3px solid #4D4D4D;
+  border-top: 3px solid #6E7476;
   margin-left: 15px;
   margin-right: 15px;
   padding-top: 25px;
   padding-bottom: 40px; }
+
+.footer-box {
+  float: right; }
+
+.mini-logo {
+  margin-left: 1rem;
+  height: 2rem;
+  width: 2rem;
+  display: inline; }
