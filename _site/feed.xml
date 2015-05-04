@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Your awesome title</title>
+    <title>DC&#39;s NON-GEOGRAPHICAL METRO</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yourdomain.commetro-dc/</link>
-    <atom:link href="http://yourdomain.commetro-dc/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 24 Apr 2015 11:17:11 -0400</pubDate>
-    <lastBuildDate>Fri, 24 Apr 2015 11:17:11 -0400</lastBuildDate>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 03 May 2015 23:38:40 -0400</pubDate>
+    <lastBuildDate>Sun, 03 May 2015 23:38:40 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Fri, 17 Apr 2015 12:10:02 -0400</pubDate>
-        <link>http://yourdomain.commetro-dc/jekyll/update/2015/04/17/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.commetro-dc/jekyll/update/2015/04/17/welcome-to-jekyll.html</guid>
+        <link>http://yourdomain.com/jekyll/update/2015/04/17/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/04/17/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
